@@ -1,0 +1,38 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, select, textarea, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1em;
+}
